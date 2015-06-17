@@ -1,0 +1,7 @@
+.transition(@property: all, @duration: 100ms, @easeFunction: linear, @delay: 0ms) {
+  -webkit-transition: ~"-webkit-@{property}" @duration @easeFunction @delay;
+  -moz-transition: ~"-moz-@{property}" @duration @easeFunction @delay;
+  -ms-transition: ~"-ms-@{property}" @duration @easeFunction @delay;
+  -o-transition: ~"-o-@{property}" @duration @easeFunction @delay;
+  transition: @property @duration @easeFunction @delay;
+}

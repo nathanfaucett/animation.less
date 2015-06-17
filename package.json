@@ -1,0 +1,21 @@
+{
+  "name": "transition.less",
+  "version": "0.0.1",
+  "description": "transition helper functions for less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/transition.less.git"
+  },
+  "scripts": {
+    "test": "comn_css -f test/index.less -o test/index.css -l"
+  },
+  "style": "src/index.less",
+  "keywords": [
+    "transition",
+    "transition.less",
+    "transition.css"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md"
+}

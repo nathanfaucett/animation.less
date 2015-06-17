@@ -1,0 +1,64 @@
+.test-1 {
+  opacity: 1.0;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-1:hover {
+  opacity: 0.5;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-2 {
+  opacity: 1.0;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-2:hover {
+  opacity: 0.5;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-3 {
+  opacity: 1.0;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-3:hover {
+  opacity: 0.5;
+  -webkit-transition: -webkit-opacity 200ms linear 0ms;
+  -moz-transition: -moz-opacity 200ms linear 0ms;
+  -ms-transition: -ms-opacity 200ms linear 0ms;
+  -o-transition: -o-opacity 200ms linear 0ms;
+  transition: opacity 200ms linear 0ms;
+}
+.test-4 {
+  opacity: 1.0;
+  -webkit-transition: -webkit-opacity 100ms linear 0ms;
+  -moz-transition: -moz-opacity 100ms linear 0ms;
+  -ms-transition: -ms-opacity 100ms linear 0ms;
+  -o-transition: -o-opacity 100ms linear 0ms;
+  transition: opacity 100ms linear 0ms;
+}
+.test-4:hover {
+  opacity: 0.5;
+  -webkit-transition: -webkit-opacity 100ms linear 0ms;
+  -moz-transition: -moz-opacity 100ms linear 0ms;
+  -ms-transition: -ms-opacity 100ms linear 0ms;
+  -o-transition: -o-opacity 100ms linear 0ms;
+  transition: opacity 100ms linear 0ms;
+}

@@ -1,0 +1,40 @@
+@import "../src/index";
+
+
+.test-1{
+  opacity: 1.0;
+  .transition(opacity, 200ms, linear, 0ms);
+  &:hover{
+    opacity: 0.5;
+    .transition(opacity, 200ms, linear, 0ms);
+  }
+}
+
+.test-2{
+  opacity: 1.0;
+  .transition(opacity, 200ms, linear);
+  &:hover{
+    opacity: 0.5;
+    .transition(opacity, 200ms, linear);
+  }
+}
+
+.test-3{
+  opacity: 1.0;
+  .transition(opacity, 200ms);
+  &:hover{
+    opacity: 0.5;
+    .transition(opacity, 200ms);
+  }
+}
+
+.test-4{
+  opacity: 1.0;
+  .transition(opacity);
+  &:hover{
+    opacity: 0.5;
+    .transition(opacity);
+  }
+}
+
+
