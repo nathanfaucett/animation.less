@@ -5,3 +5,29 @@
   -o-transition: ~"-o-@{property}" @duration @easeFunction @delay;
   transition: @property @duration @easeFunction @delay;
 }
+
+@prefixArgs: ~`prefixArgs = function prefixArgs(prefix, str) {
+  return str
+    .split(", ")
+    .map(function(value) {
+      return "-" + prefix + "-" + value;
+    })
+    .join(", ");
+}`;
+
+.transition-multiple(@value1, @value2: X, ...) {
+  @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
+  -webkit-transition: ~`prefixArgs("webkit", "@{value}")`;
+  -moz-transition: ~`prefixArgs("moz", "@{value}")`;
+  -ms-transition: ~`prefixArgs("ms", "@{value}")`;
+  -o-transition: ~`prefixArgs("o", "@{value}")`;
+  transition: @value;
+}
+
+.transform(@value) {
+  -webkit-transform: @value;
+  -moz-transform: @value;
+  -ms-transform: @value;
+  -o-transform:@value;
+  transform: @value;
+}

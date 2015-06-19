@@ -1,19 +1,19 @@
 {
-  "name": "transition.less",
+  "name": "animation.less",
   "version": "0.0.1",
-  "description": "transition helper functions for less",
+  "description": "animation helper functions for less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/transition.less.git"
+    "url": "https://github.com/nathanfaucett/animation.less.git"
   },
   "scripts": {
     "test": "comn_css -f test/index.less -o test/index.css -l"
   },
   "style": "src/index.less",
   "keywords": [
-    "transition",
-    "transition.less",
-    "transition.css"
+    "animation",
+    "animation.less",
+    "animation.css"
   ],
   "author": "Nathan Faucett",
   "license": "BSD-2-Clause",

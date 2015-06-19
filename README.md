@@ -1,4 +1,4 @@
-transition.less
+animation.less
 =======
 
-transition helper functions for less
+animation helper functions for less

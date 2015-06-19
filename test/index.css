@@ -8,11 +8,6 @@
 }
 .test-1:hover {
   opacity: 0.5;
-  -webkit-transition: -webkit-opacity 200ms linear 0ms;
-  -moz-transition: -moz-opacity 200ms linear 0ms;
-  -ms-transition: -ms-opacity 200ms linear 0ms;
-  -o-transition: -o-opacity 200ms linear 0ms;
-  transition: opacity 200ms linear 0ms;
 }
 .test-2 {
   opacity: 1.0;
@@ -24,11 +19,6 @@
 }
 .test-2:hover {
   opacity: 0.5;
-  -webkit-transition: -webkit-opacity 200ms linear 0ms;
-  -moz-transition: -moz-opacity 200ms linear 0ms;
-  -ms-transition: -ms-opacity 200ms linear 0ms;
-  -o-transition: -o-opacity 200ms linear 0ms;
-  transition: opacity 200ms linear 0ms;
 }
 .test-3 {
   opacity: 1.0;
@@ -40,11 +30,6 @@
 }
 .test-3:hover {
   opacity: 0.5;
-  -webkit-transition: -webkit-opacity 200ms linear 0ms;
-  -moz-transition: -moz-opacity 200ms linear 0ms;
-  -ms-transition: -ms-opacity 200ms linear 0ms;
-  -o-transition: -o-opacity 200ms linear 0ms;
-  transition: opacity 200ms linear 0ms;
 }
 .test-4 {
   opacity: 1.0;
@@ -61,4 +46,25 @@
   -ms-transition: -ms-opacity 100ms linear 0ms;
   -o-transition: -o-opacity 100ms linear 0ms;
   transition: opacity 100ms linear 0ms;
+}
+.test-5 {
+  opacity: 1.0;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-opacity 200ms linear, -webkit-transform 200ms linear;
+  -moz-transition: -moz-opacity 200ms linear, -moz-transform 200ms linear;
+  -ms-transition: -ms-opacity 200ms linear, -ms-transform 200ms linear;
+  -o-transition: -o-opacity 200ms linear, -o-transform 200ms linear;
+  transition: opacity 200ms linear, transform 200ms linear;
+}
+.test-5:hover {
+  opacity: 0.5;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
 }
